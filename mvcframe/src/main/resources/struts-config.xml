@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+	<beans>
+		<bean name="user" class= "mvcframe.user.bean.User"></bean>
+	</beans>
+	<action-mapping>
+		<action name="user" class= "mvcframe.user.action.UserAction" path="/user">
+			<forward name="success" path="/view/success.jsp"></forward>
+			<forward name="fail" path="/view/fail.jsp"></forward>
+		</action>
+	</action-mapping>
+</struts>

@@ -43,7 +43,7 @@ public class WebServer {
 	}
 
 	public static void main(String[] args) {
-		int port = args.length > 1 ? Integer.valueOf(args[0]) : 80;
+		int port = args.length > 0 ? Integer.valueOf(args[0]) : 80;
 		new WebServer(port).webStart();
 	}
 }

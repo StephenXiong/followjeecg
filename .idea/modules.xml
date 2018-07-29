@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/followjeecg.iml" filepath="$PROJECT_DIR$/.idea/followjeecg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvcannotation/mvcannotation.iml" filepath="$PROJECT_DIR$/mvcannotation/mvcannotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvcframe/mvcframe.iml" filepath="$PROJECT_DIR$/mvcframe/mvcframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testAnnotation/testAnnotation.iml" filepath="$PROJECT_DIR$/testAnnotation/testAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmvcannotation/testmvcannotation.iml" filepath="$PROJECT_DIR$/testmvcannotation/testmvcannotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webserver/webserver.iml" filepath="$PROJECT_DIR$/webserver/webserver.iml" />
+    </modules>
+  </component>
+</project>

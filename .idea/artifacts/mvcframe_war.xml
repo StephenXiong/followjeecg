@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvcframe:war">
+    <output-path>$PROJECT_DIR$/mvcframe/target</output-path>
+    <root id="archive" name="mvcframe.war">
+      <element id="artifact" artifact-name="mvcframe:war exploded" />
+    </root>
+  </artifact>
+</component>

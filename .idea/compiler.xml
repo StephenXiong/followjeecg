@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="annotationTest" />
+        <module name="mvcannotation" />
+        <module name="mvcframe" />
+        <module name="testAnnotation" />
+        <module name="testmvcannotation" />
+        <module name="webserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotationTest" target="1.7" />
+      <module name="annotationtest" target="1.5" />
+      <module name="followjeecg" target="1.5" />
+      <module name="mvcannotation" target="1.5" />
+      <module name="mvcframe" target="1.5" />
+      <module name="testAnnotation" target="1.7" />
+      <module name="testmvcannotation" target="1.8" />
+      <module name="webserver" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

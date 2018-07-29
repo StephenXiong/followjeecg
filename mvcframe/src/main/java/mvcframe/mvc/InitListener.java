@@ -32,7 +32,7 @@ public class InitListener implements ServletContextListener {
 		String proFilePath = classPath.toString();
 
 		// 移除开通的file:/六个字符
-		proFilePath = proFilePath.substring(6);
+		proFilePath = proFilePath.substring(5);
 
 		// 如果为window系统下,则把路径中的路径分隔符替换为window系统的文件路径分隔符
 		proFilePath = proFilePath.replace("/", java.io.File.separator);
